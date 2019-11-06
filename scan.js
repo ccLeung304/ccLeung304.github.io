@@ -1,3 +1,8 @@
+'use strict';
+
+var obj = {'qr-scanner-worker.min.js'};
+Object.preventExtensions(obj);
+
 
     import QrScanner from "../qr-scanner.min.js";
     QrScanner.WORKER_PATH = '../qr-scanner-worker.min.js';
