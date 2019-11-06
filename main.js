@@ -53,7 +53,7 @@ function mkQRCode( data ){
 }
 
 function on_scan(){
-	window.location.href = "Scan.html";
+	window.location.href = "../Scan.html";
 }
 
 function base64_encode( obj ){
